@@ -60,6 +60,7 @@ li{
     margin-left: 39.5%;
     height: 750px;
     width: 650px;
+    z-index: -1;
 }
 h4{
     color: #DF6951;
