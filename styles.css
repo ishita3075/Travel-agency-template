@@ -10,7 +10,7 @@ body{
 }
 ul{
     list-style-type: none;
-    display: grid;
+    display: flex;
     align-items: center;
 }
 .header{
