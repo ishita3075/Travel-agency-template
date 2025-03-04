@@ -15,7 +15,7 @@ ul{
 }
 .header{
     margin-top: 30px;
-    gap: 40px;
+    gap: 50px;
     justify-content: center;
     padding: 0%;
 }
@@ -81,10 +81,30 @@ h1{
     letter-spacing: -3.36px;
 }
 .content-txt p{
-    width: 376px;
+    width: 400px;
     height: 90px;
     font-size: 16px;
     color: #5E6282;
     line-height: 30px;
     margin-top: -20px;
+}
+.find-btn{
+    width: 150px;
+    height: 50px;
+    background-color: #f1a501;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    font-family: "Google Sans";
+}
+.play-btn{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: #DF6951;
+}
+.btns{
+    display: flex;
+    margin-top: 30px;
+    gap: 35px;
 }
