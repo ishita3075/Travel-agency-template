@@ -1,12 +1,15 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     justify-content: center;
-    align-items: center;
 }
-*{
-    box-sizing: border-box;
+.container{
+    max-width: 1280px;
+    width: 100%;
 }
 ul{
     list-style-type: none;
@@ -46,6 +49,7 @@ li{
 }
 .logo{
     cursor: auto;
+    margin-left: 70px;
 }
 .decor{
     z-index: -1;
@@ -72,6 +76,7 @@ h4{
 .content-txt{
     margin-top: 100px;
     margin-left: 150px;
+    margin-bottom: 0;
 }
 h1{
     color: var(--1st, #181E4B);
@@ -96,6 +101,7 @@ h1{
     border: 0;
     border-radius: 5px;
     font-family: "Google Sans";
+    font-size: 18px;
 }
 .play-btn{
     height: 50px;
@@ -107,4 +113,33 @@ h1{
     display: flex;
     margin-top: 30px;
     gap: 35px;
+    cursor: pointer;
+}
+.btns p{
+    margin-top: 10px;
+    margin-left: -20px;
+}
+.second-page{
+    text-align: center;
+    margin-top: 150px;
+}
+h3{
+    font-size: 18px;
+    color: #5E6282;
+}
+h2{
+    font-size: 50px;
+    font-family: "Volkhov";
+    margin-top: 0;
+    color: #14183e;
+}
+.category-containers{
+    display: flex;
+    gap: 45px;
+}
+.container-box{
+    height: 314px;
+    width: 230px;
+    border-radius: 36px;
+    background-color: #14183e;
 }
