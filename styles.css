@@ -190,3 +190,9 @@ h2{
     gap: 30px;
     margin-left: 50px;
 }
+.dest-containers img{
+    height: 200px;
+    width: 200px;
+    margin-left: -40px;
+    position: relative;
+}
