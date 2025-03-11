@@ -179,4 +179,16 @@ h2{
     position: absolute;
     margin-left: -40px;
 }
-
+.fourth-page{
+    margin-left: 50px;
+}
+.trip-points{
+    display: flex;
+    gap: 30px;
+}
+.trip-img{
+    margin-left: 51%;
+    margin-top: -51%;
+    height: 750px;
+    width: 600px;
+}
