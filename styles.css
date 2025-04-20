@@ -377,3 +377,10 @@ li p{
     height: 60px;
     margin-top: -20px;
 }
+.travel-box{
+    display: flex;
+}
+.travel-box img{
+    height: 500px;
+    width: 500px;
+}
